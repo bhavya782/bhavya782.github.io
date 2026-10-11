@@ -167,3 +167,4 @@ git push -u origin main
 - Designed and built for **Bhavya Reddy**.
 - Fonts: [Inter](https://rsms.me/inter/) by Rasmus Andersson (SIL Open Font License) and [JetBrains Mono](https://www.jetbrains.com/lp/mono/) (Apache 2.0).
 - Open source and free to customize.
+
