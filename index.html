@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary Meta Tags -->
+  <title>Bhavya Reddy | Computer Science Engineering Student & Aspiring Software Developer</title>
+  <meta name="title" content="Bhavya Reddy | Computer Science Engineering Student & Aspiring Software Developer">
+  <meta name="description" content="Personal portfolio of Bhavya Reddy, a Computer Science Engineering student at VBIT (Class of 2028) aspiring to become a software developer. Exploring full-stack engineering, AI, cloud, and DevOps.">
+  <meta name="author" content="Bhavya Reddy">
+  <meta name="keywords" content="Bhavya Reddy, Software Developer, Computer Science, VBIT, Portfolio, Full-Stack, React, Node.js, Python, EduPath, AnnaSeva">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bhavya782.github.io/">
+  <meta property="og:title" content="Bhavya Reddy | Software Developer Portfolio">
+  <meta property="og:description" content="Computer Science Engineering student at VBIT (2028). Explore projects in full-stack development, AI recommendations, and practical software engineering.">
+  <meta property="og:image" content="assets/images/favicon.svg">
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://bhavya782.github.io/">
+  <meta property="twitter:title" content="Bhavya Reddy | Software Developer Portfolio">
+  <meta property="twitter:description" content="Computer Science Engineering student at VBIT (2028). Explore projects in full-stack development, AI recommendations, and practical software engineering.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Deferred JavaScript -->
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <!-- Skip to Main Content Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ========================================================
+       NAVIGATION BAR
+       ======================================================== -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="#top" class="brand-link" aria-label="Bhavya Reddy - Back to top">
+        <span class="brand-name">Bhavya Reddy</span>
+        <span class="brand-badge" aria-label="Status: Open to internships">
+          <span class="status-dot"></span>
+          <span class="status-text">CSE '28</span>
+        </span>
+      </a>
+
+      <!-- Desktop & Accessible Navigation Menu -->
+      <nav class="primary-nav" id="primary-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#interests" class="nav-link">Interests</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Items: Theme Toggle, Resume & Mobile Menu Button -->
+      <div class="header-actions">
+        <!-- Resume Trigger Button (opens accessible modal preview / download options) -->
+        <button type="button" class="btn btn-outline btn-sm resume-btn" id="resumeBtn" aria-label="View or download resume">
+          <svg class="icon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true">
+            <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd" />
+          </svg>
+          <span>Resume</span>
+        </button>
+
+        <!-- Theme Toggle (Subtle Light/Dark Mode) -->
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle color theme" title="Toggle dark/light theme">
+          <svg class="theme-icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Landmark -->
+  <main id="main-content">
+    
+    <!-- ========================================================
+         HERO SECTION
+         ======================================================== -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-grid">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <span class="eyebrow-tag">COMPUTER SCIENCE ENGINEERING · CLASS OF 2028</span>
+          </div>
+
+          <h1 class="hero-title">
+            Building thoughtful solutions through code.
+          </h1>
+
+          <p class="hero-description">
+            I’m Bhavya Reddy, a Computer Science Engineering student interested in software development, full-stack applications, and practical AI solutions. I enjoy turning ideas into useful, well-crafted digital experiences.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Projects</span>
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <!-- Hero Meta & Social Quick Links -->
+          <div class="hero-meta">
+            <span class="meta-label">Connect:</span>
+            <div class="hero-social-links">
+              <!-- GitHub Link -->
+              <a href="https://github.com/bhavya782" target="_blank" rel="noopener noreferrer" class="social-chip" title="GitHub Profile - bhavya782">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                </svg>
+                <span>github.com/bhavya782</span>
+              </a>
+
+              <!-- LinkedIn Link (PLACEHOLDER clearly marked) -->
+              <!-- INSTRUCTION: Replace href with your actual LinkedIn profile URL, e.g., https://linkedin.com/in/bhavya-reddy -->
+              <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer" class="social-chip placeholder-link" title="LinkedIn Profile (Update URL with your username)" data-tooltip="Placeholder: Replace with your actual LinkedIn URL in index.html">
+                <svg class="icon" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.46 1.46 0 1 0 0-2.92 1.46 1.46 0 0 0 0 2.92M7.86 18.5V10.13H5.07V18.5h2.79z"/>
+                </svg>
+                <span>LinkedIn [Placeholder]</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Technical Visual Element: Refined System Blueprint & Code Inspection -->
+        <div class="hero-visual" aria-label="Technical engineering preview card">
+          <div class="tech-card">
+            <!-- Card Header Window Controls -->
+            <div class="tech-card-header">
+              <div class="window-controls">
+                <span class="control-dot red"></span>
+                <span class="control-dot yellow"></span>
+                <span class="control-dot green"></span>
+              </div>
+              <div class="tech-card-title">bhavya-reddy // developer-manifest.json</div>
+              <div class="tech-card-status">
+                <span class="status-pulse"></span> v1.0.0
+              </div>
+            </div>
+
+            <!-- Card Body / Technical Blueprint -->
+            <div class="tech-card-body">
+              <pre class="code-block"><code><span class="code-keyword">const</span> <span class="code-entity">developerProfile</span> = {
+  <span class="code-property">name</span>: <span class="code-string">"Bhavya Reddy"</span>,
+  <span class="code-property">education</span>: {
+    <span class="code-property">institution</span>: <span class="code-string">"Vignana Bharathi Inst. of Tech"</span>,
+    <span class="code-property">program</span>: <span class="code-string">"B.Tech in Computer Science & Eng."</span>,
+    <span class="code-property">graduating</span>: <span class="code-number">2028</span>
+  },
+  <span class="code-property">focusAreas</span>: [
+    <span class="code-string">"Software Development"</span>,
+    <span class="code-string">"Full-Stack Applications"</span>,
+    <span class="code-string">"Applied AI Solutions"</span>,
+    <span class="code-string">"Cloud & DevOps Foundations"</span>
+  ],
+  <span class="code-property">coreStack</span>: [<span class="code-string">"Java"</span>, <span class="code-string">"JavaScript"</span>, <span class="code-string">"Python"</span>, <span class="code-string">"React"</span>, <span class="code-string">"Node.js"</span>],
+  <span class="code-property">mindset</span>: <span class="code-string">"Build practical, testable, maintainable software."</span>
+};</code></pre>
+            </div>
+
+            <!-- Card Footer Metrics / Badges -->
+            <div class="tech-card-footer">
+              <div class="metric-item">
+                <span class="metric-label">Status</span>
+                <span class="metric-value text-emerald">Active Learner</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-label">Location</span>
+                <span class="metric-value">Hyderabad, IN</span>
+              </div>
+              <div class="metric-item">
+                <span class="metric-label">Target Role</span>
+                <span class="metric-value">Software Developer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         ABOUT SECTION
+         ======================================================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">BACKGROUND & PHILOSOPHY</span>
+          <h2 class="section-title">A little about me.</h2>
+        </div>
+
+        <div class="about-grid">
+          <!-- Main Narrative Column -->
+          <div class="about-narrative">
+            <p class="paragraph-lead">
+              I am a Computer Science Engineering student at <strong>Vignana Bharathi Institute of Technology (VBIT)</strong>, set to graduate in <strong>2028</strong>.
+            </p>
+            <p>
+              My path into software engineering is rooted in curiosity and practicality. Rather than treating code as abstract syntax, I focus on building tangible tools that solve real problems, from academic advisory platforms to community logistics networks.
+            </p>
+            <p>
+              I believe great software is characterized by clean structure, deliberate design, and maintainability. Through coursework, personal projects, and continuous self-study, I actively practice writing clear code, understanding system lifecycles, and adapting modern engineering workflows.
+            </p>
+
+            <!-- Key Engineering Principles -->
+            <div class="principles-group">
+              <h3 class="principles-title">How I approach software engineering:</h3>
+              <div class="principles-grid">
+                <div class="principle-card">
+                  <div class="principle-number">01</div>
+                  <h4 class="principle-heading">Pragmatic Problem Solving</h4>
+                  <p class="principle-text">Focusing on practical solutions, logical workflows, and verifiable utility rather than unneeded complexity.</p>
+                </div>
+
+                <div class="principle-card">
+                  <div class="principle-number">02</div>
+                  <h4 class="principle-heading">Maintainable & Clean Code</h4>
+                  <p class="principle-text">Writing organized, readable, and properly documented code that others (and my future self) can easily reason about.</p>
+                </div>
+
+                <div class="principle-card">
+                  <div class="principle-number">03</div>
+                  <h4 class="principle-heading">Hands-On Learning</h4>
+                  <p class="principle-text">Strengthening theoretical foundations by directly implementing projects, debugging bottlenecks, and adopting modern tools.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Academic & Profile Facts Bento Column -->
+          <div class="about-facts-wrapper">
+            <div class="facts-card">
+              <h3 class="facts-card-title">Academic & Profile Summary</h3>
+              <ul class="facts-list">
+                <li class="fact-item">
+                  <span class="fact-label">Degree</span>
+                  <span class="fact-value">B.Tech in Computer Science and Engineering</span>
+                </li>
+                <li class="fact-item">
+                  <span class="fact-label">Institution</span>
+                  <span class="fact-value">Vignana Bharathi Institute of Technology (VBIT)</span>
+                </li>
+                <li class="fact-item">
+                  <span class="fact-label">Expected Graduation</span>
+                  <span class="fact-value">2028</span>
+                </li>
+                <li class="fact-item">
+                  <span class="fact-label">Primary Interests</span>
+                  <span class="fact-value">Software Development, Full-Stack Development, AI, Cloud Computing, DevOps</span>
+                </li>
+                <li class="fact-item">
+                  <span class="fact-label">Current Focus</span>
+                  <span class="fact-value">Data Structures, Algorithms, RESTful Web APIs, React</span>
+                </li>
+              </ul>
+              
+              <div class="facts-callout">
+                <div class="callout-icon" aria-hidden="true">💡</div>
+                <div class="callout-text">
+                  <strong>Looking ahead:</strong> Actively seeking internships and collaborative engineering environments where I can contribute to real software products and learn from experienced mentors.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         TECHNICAL SKILLS SECTION
+         ======================================================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">TECHNICAL TOOLSET</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">
+            An organized overview of languages, frameworks, and developer tools I actively practice and integrate into my software projects.
+          </p>
+        </div>
+
+        <!-- Note to Bhavya for easy maintenance -->
+        <div class="transparency-note" role="note">
+          <span class="note-badge">Honest Representation</span>
+          <span>Listed skills represent active project usage and ongoing coursework. Easily update this list in <code>index.html</code> as your technical stack expands.</span>
+        </div>
+
+        <!-- 4 Distinct Groups Grid -->
+        <div class="skills-grid">
+          
+          <!-- Group 1: Programming Languages -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-wrap">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Programming Languages</h3>
+                <p class="category-desc">Core languages used for algorithms, problem solving, and backend logic</p>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">JavaScript (ES6+)</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">SQL</span>
+            </div>
+          </div>
+
+          <!-- Group 2: Frontend Development -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-wrap">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="3" y1="9" x2="21" y2="9"></line>
+                  <line x1="9" y1="21" x2="9" y2="9"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Frontend Development</h3>
+                <p class="category-desc">Building responsive, accessible, and structured user interfaces</p>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3 / Modern Layouts</span>
+              <span class="skill-tag">React.js</span>
+              <span class="skill-tag">Responsive Design</span>
+              <span class="skill-tag">DOM Manipulation</span>
+            </div>
+          </div>
+
+          <!-- Group 3: Backend and Databases -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-wrap">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Backend & Databases</h3>
+                <p class="category-desc">Server-side logic, data modeling, and RESTful service architecture</p>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Express.js</span>
+              <span class="skill-tag">REST APIs</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">CRUD Operations</span>
+            </div>
+          </div>
+
+          <!-- Group 4: Developer Tools and Emerging Technologies -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-wrap">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Developer Tools & Technologies</h3>
+                <p class="category-desc">Engineering workflows, version control, and emerging fields</p>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">API Integration</span>
+              <span class="skill-tag">AI/ML Fundamentals</span>
+              <span class="skill-tag">Cloud Computing</span>
+              <span class="skill-tag">DevOps Concepts</span>
+              <span class="skill-tag">Linux Basics</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         FEATURED PROJECTS SECTION (THE MOST IMPORTANT SECTION)
+         ======================================================== -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">PORTFOLIO WORK</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            Practical software applications and prototypes addressing real-world challenges. Honest representations of development status and architecture.
+          </p>
+        </div>
+
+        <!-- Project Cards Grid -->
+        <div class="projects-grid">
+          
+          <!-- PROJECT 1: EduPath -->
+          <article class="project-card" data-project-id="edupath">
+            <!-- Project Visual Preview Header -->
+            <div class="project-preview preview-edupath" aria-hidden="true">
+              <div class="preview-badge-status status-active">Active Development · Prototype</div>
+              <div class="preview-diagram">
+                <div class="diagram-node">Student Preferences & Rank</div>
+                <div class="diagram-arrow">➔</div>
+                <div class="diagram-node node-highlight">AI Decision Engine</div>
+                <div class="diagram-arrow">➔</div>
+                <div class="diagram-node">Ranked College & Branch List</div>
+              </div>
+            </div>
+
+            <!-- Project Content -->
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-category">Decision Support System · Full-Stack & AI</span>
+              </div>
+
+              <h3 class="project-title">EduPath</h3>
+              
+              <p class="project-summary">
+                An AI-assisted educational decision-support platform intended to help students explore B.Tech branches and colleges based on factors such as interests, entrance rank, career goals, and budget.
+              </p>
+
+              <!-- Problem & Solution Narrative -->
+              <div class="project-insights">
+                <div class="insight-item">
+                  <strong>Problem:</strong> Students navigating engineering admissions face overwhelming data and uncertainty in choosing suitable colleges and engineering streams tailored to their rank and interests.
+                </div>
+                <div class="insight-item">
+                  <strong>Intended Solution:</strong> A centralized web interface utilizing structured branch criteria and intelligent recommendation algorithms to evaluate trade-offs and provide clear admissions guidance.
+                </div>
+              </div>
+
+              <!-- Tech Stack Badges -->
+              <div class="project-tech-stack" aria-label="Technologies used">
+                <span class="tech-pill">React.js</span>
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">Express.js</span>
+                <span class="tech-pill">SQL</span>
+                <span class="tech-pill">AI/API Integration</span>
+              </div>
+
+              <!-- Project Actions / Links -->
+              <div class="project-actions">
+                <a href="https://github.com/bhavya782/edupath-ai-branch-college-recommender" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <svg class="icon" viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                  </svg>
+                  <span>View Repository</span>
+                </a>
+                <button type="button" class="btn btn-ghost btn-sm view-details-btn" data-project="edupath">
+                  <span>Architecture Details</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: AnnaSeva -->
+          <article class="project-card" data-project-id="annaseva">
+            <!-- Project Visual Preview Header -->
+            <div class="project-preview preview-annaseva" aria-hidden="true">
+              <div class="preview-badge-status status-prototype">Concept & Platform Prototype</div>
+              <div class="preview-diagram">
+                <div class="diagram-node">Food Donors (Surplus)</div>
+                <div class="diagram-arrow">➔</div>
+                <div class="diagram-node node-highlight">Redistribution Coordinator</div>
+                <div class="diagram-arrow">➔</div>
+                <div class="diagram-node">NGOs & Volunteers</div>
+              </div>
+            </div>
+
+            <!-- Project Content -->
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-category">Social Logistics Platform · Web Application</span>
+              </div>
+
+              <h3 class="project-title">AnnaSeva</h3>
+              
+              <p class="project-summary">
+                A food donation platform concept connecting donors, NGOs, and volunteers to support food redistribution and improve donation coordination.
+              </p>
+
+              <!-- Problem & Solution Narrative -->
+              <div class="project-insights">
+                <div class="insight-item">
+                  <strong>Problem:</strong> Large amounts of edible surplus food from events and institutions are lost due to a lack of immediate, real-time coordination with nearby charities and volunteers.
+                </div>
+                <div class="insight-item">
+                  <strong>Intended Workflow:</strong> Donors post available food details, NGOs discover localized pickup alerts, and volunteers coordinate transport through mapping tools and transparent notification feeds.
+                </div>
+              </div>
+
+              <!-- Tech Stack Badges -->
+              <div class="project-tech-stack" aria-label="Technologies used">
+                <span class="tech-pill">React</span>
+                <span class="tech-pill">Vite</span>
+                <span class="tech-pill">Node.js</span>
+                <span class="tech-pill">Express.js</span>
+                <span class="tech-pill">MySQL</span>
+                <span class="tech-pill">Mapping Tools</span>
+              </div>
+
+              <!-- Project Actions / Links -->
+              <div class="project-actions">
+                <a href="https://github.com/bhavya782/annaseva-food-donation-platform" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <svg class="icon" viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                  </svg>
+                  <span>View Repository</span>
+                </a>
+                <button type="button" class="btn btn-ghost btn-sm view-details-btn" data-project="annaseva">
+                  <span>Architecture Details</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: AI-Based Online Vulnerability Prediction System -->
+          <article class="project-card" data-project-id="vulnerability">
+            <!-- Project Visual Preview Header -->
+            <div class="project-preview preview-vulnerability" aria-hidden="true">
+              <div class="preview-badge-status status-inprogress">In Progress · Research & Engineering</div>
+              <div class="preview-diagram">
+                <div class="diagram-node">Code Syntax / Patterns</div>
+                <div class="diagram-arrow">➔</div>
+                <div class="diagram-node node-highlight">ML Vulnerability Classifier</div>
+                <div class="diagram-arrow">➔</div>
+                <div class="diagram-node">Security Risk Report</div>
+              </div>
+            </div>
+
+            <!-- Project Content -->
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-category">Cybersecurity & Machine Learning · Application Concept</span>
+              </div>
+
+              <h3 class="project-title">AI-Based Online Vulnerability Prediction System</h3>
+              
+              <p class="project-summary">
+                A cybersecurity-focused application concept intended to explore vulnerability prediction, security insights, and user-facing reports.
+              </p>
+
+              <!-- Problem & Solution Narrative -->
+              <div class="project-insights">
+                <div class="insight-item">
+                  <strong>Problem:</strong> Software systems regularly suffer from recurring code vulnerabilities that manual reviews fail to catch prior to staging and deployment.
+                </div>
+                <div class="insight-item">
+                  <strong>Intended Concept:</strong> Extracting code features and analyzing patterns using machine learning models to highlight potential security flaws and suggest remedial best practices.
+                </div>
+              </div>
+
+              <!-- Tech Stack Badges -->
+              <div class="project-tech-stack" aria-label="Technologies used">
+                <span class="tech-pill">React</span>
+                <span class="tech-pill">FastAPI</span>
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">scikit-learn</span>
+                <span class="tech-pill">SQLite</span>
+              </div>
+
+              <!-- Project Actions / Links -->
+              <div class="project-actions">
+                <!-- Verified Status Notice: Under active research and initial implementation -->
+                <span class="repo-status-note">
+                  <svg class="icon text-amber" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
+                  </svg>
+                  <span>Repository link will be published once initial prototype is committed.</span>
+                </span>
+                <button type="button" class="btn btn-ghost btn-sm view-details-btn" data-project="vulnerability">
+                  <span>Research Scope</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         CERTIFICATIONS & CONTINUOUS LEARNING SECTION
+         ======================================================== -->
+    <section class="section cert-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">VERIFIED LEARNING</span>
+          <h2 class="section-title">Certifications & Continuous Learning</h2>
+          <p class="section-subtitle">
+            Formal learning programs and industry virtual experiences completed to strengthen data analysis, process automation, and software fundamentals.
+          </p>
+        </div>
+
+        <!-- Certifications List / Cards -->
+        <div class="cert-grid">
+          
+          <!-- Certification 1: Automation Anywhere -->
+          <div class="cert-card">
+            <div class="cert-header">
+              <div class="cert-badge">Professional Certification</div>
+              <span class="cert-issuer">Automation Anywhere</span>
+            </div>
+            <h3 class="cert-title">Certified Advanced Automation Professional</h3>
+            <p class="cert-desc">
+              Comprehensive certification covering intelligent workflow automation, bot architecture, exception handling, and enterprise robotic process development.
+            </p>
+            <div class="cert-footer">
+              <span class="cert-status verified-badge">
+                <svg class="icon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+                <span>Completed</span>
+              </span>
+              <!-- Credential Link Placeholder: Add your credential verification link if desired -->
+              <span class="cert-edit-note">[Credential on file]</span>
+            </div>
+          </div>
+
+          <!-- Certification 2: Deloitte Data Analytics -->
+          <div class="cert-card">
+            <div class="cert-header">
+              <div class="cert-badge">Virtual Experience Program</div>
+              <span class="cert-issuer">Forage · Deloitte</span>
+            </div>
+            <h3 class="cert-title">Deloitte Data Analytics</h3>
+            <p class="cert-desc">
+              Practical simulation focused on data quality assessment, forensic analytics, structured querying, and synthesizing actionable business recommendations.
+            </p>
+            <div class="cert-footer">
+              <span class="cert-status verified-badge">
+                <svg class="icon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+                <span>Completed</span>
+              </span>
+              <span class="cert-edit-note">[Credential on file]</span>
+            </div>
+          </div>
+
+          <!-- Certification 3: Tata Data Visualisation -->
+          <div class="cert-card">
+            <div class="cert-header">
+              <div class="cert-badge">Virtual Experience Program</div>
+              <span class="cert-issuer">Forage · Tata</span>
+            </div>
+            <h3 class="cert-title">Tata Data Visualisation</h3>
+            <p class="cert-desc">
+              Data visualization program focusing on framing executive-level business questions, choosing appropriate visual charts, and crafting insightful data dashboards.
+            </p>
+            <div class="cert-footer">
+              <span class="cert-status verified-badge">
+                <svg class="icon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+                <span>Completed</span>
+              </span>
+              <span class="cert-edit-note">[Credential on file]</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         LEARNING AND PROFESSIONAL INTERESTS SECTION
+         ======================================================== -->
+    <section class="section interests-section" id="interests">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">ROADMAP & CURIOSITY</span>
+          <h2 class="section-title">Learning & Professional Interests</h2>
+          <p class="section-subtitle">
+            Core technical domains I am actively exploring through coursework, technical documentation, and targeted coding practice.
+          </p>
+        </div>
+
+        <div class="interests-grid">
+          
+          <div class="interest-card">
+            <div class="interest-icon-box">💻</div>
+            <h3 class="interest-title">Software Engineering</h3>
+            <p class="interest-desc">
+              Deepening understanding of object-oriented principles, design patterns, clean code habits, and building robust, maintainable systems.
+            </p>
+          </div>
+
+          <div class="interest-card">
+            <div class="interest-icon-box">🌐</div>
+            <h3 class="interest-title">Full-Stack Development</h3>
+            <p class="interest-desc">
+              Bridging responsive client-side React architectures with efficient REST API backends, state management, and schema-driven relational databases.
+            </p>
+          </div>
+
+          <div class="interest-card">
+            <div class="interest-icon-box">🧠</div>
+            <h3 class="interest-title">Artificial Intelligence</h3>
+            <p class="interest-desc">
+              Investigating applied machine learning, practical recommendation engines, and integrating intelligent APIs into web applications.
+            </p>
+          </div>
+
+          <div class="interest-card">
+            <div class="interest-icon-box">☁️</div>
+            <h3 class="interest-title">Cloud Computing</h3>
+            <p class="interest-desc">
+              Learning foundational cloud primitives, scalable hosting platforms, serverless concepts, and resilient infrastructure setups.
+            </p>
+          </div>
+
+          <div class="interest-card">
+            <div class="interest-icon-box">🚀</div>
+            <h3 class="interest-title">DevOps</h3>
+            <p class="interest-desc">
+              Understanding continuous integration and delivery (CI/CD), Git branching workflows, containerization basics, and build automation.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         CONTACT SECTION
+         ======================================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card-wrapper">
+          <div class="contact-header">
+            <span class="section-eyebrow">GET IN TOUCH</span>
+            <h2 class="section-title">Let’s connect.</h2>
+            <p class="contact-subtitle">
+              I’m interested in software development opportunities, internships, collaborative projects, and conversations about technology.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Left Column: Direct Channels & Copy Email -->
+            <div class="contact-direct-channels">
+              <h3 class="channels-title">Direct Communication</h3>
+              
+              <!-- Professional Email Card -->
+              <div class="channel-card">
+                <div class="channel-icon-wrap">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">Email Address</span>
+                  <!-- EMAIL PLACEHOLDER CLEARLY MARKED -->
+                  <!-- INSTRUCTION: Replace this email placeholder with your actual email in index.html -->
+                  <a href="mailto:bhavya.reddy.placeholder@example.com" class="channel-value" id="emailLink" title="Click to compose email">
+                    bhavya.reddy.placeholder@example.com
+                  </a>
+                  <span class="placeholder-caption">Replace with your verified email</span>
+                </div>
+                <button type="button" class="btn btn-ghost btn-sm copy-btn" id="copyEmailBtn" aria-label="Copy email to clipboard">
+                  <span class="copy-text">Copy</span>
+                </button>
+              </div>
+
+              <!-- GitHub Profile Card -->
+              <div class="channel-card">
+                <div class="channel-icon-wrap">
+                  <svg class="icon" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">GitHub</span>
+                  <a href="https://github.com/bhavya782" target="_blank" rel="noopener noreferrer" class="channel-value">
+                    github.com/bhavya782
+                  </a>
+                  <span class="placeholder-caption">Public Repositories & Commits</span>
+                </div>
+              </div>
+
+              <!-- LinkedIn Profile Card (PLACEHOLDER) -->
+              <div class="channel-card">
+                <div class="channel-icon-wrap">
+                  <svg class="icon" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+                    <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.46 1.46 0 1 0 0-2.92 1.46 1.46 0 0 0 0 2.92M7.86 18.5V10.13H5.07V18.5h2.79z"/>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">LinkedIn</span>
+                  <!-- INSTRUCTION: Replace href with your actual LinkedIn profile link -->
+                  <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer" class="channel-value placeholder-link">
+                    linkedin.com/in/[your-linkedin-profile]
+                  </a>
+                  <span class="placeholder-caption">Add your profile URL in index.html</span>
+                </div>
+              </div>
+
+              <div class="channel-location-note">
+                <span class="dot-live"></span>
+                <span>Location: Hyderabad, Telangana, India · Standard Time (IST / UTC+5:30)</span>
+              </div>
+            </div>
+
+            <!-- Right Column: Transparent Email Launcher & Configuration Guide -->
+            <div class="contact-composer">
+              <h3 class="channels-title">Send a Message</h3>
+              <p class="composer-caption">
+                Compose a quick message below to open directly in your preferred email client with pre-filled details.
+              </p>
+
+              <form id="contactForm" class="composer-form">
+                <div class="form-group">
+                  <label for="contactName" class="form-label">Your Name</label>
+                  <input type="text" id="contactName" class="form-input" placeholder="e.g. Alex Morgan" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactSubject" class="form-label">Subject</label>
+                  <input type="text" id="contactSubject" class="form-input" placeholder="e.g. Internship Inquiry / Collaboration" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactMessage" class="form-label">Message</label>
+                  <textarea id="contactMessage" class="form-textarea" rows="4" placeholder="Hello Bhavya, I came across your portfolio and would like to discuss..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">
+                  <svg class="icon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true">
+                    <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"/>
+                  </svg>
+                  <span>Compose in Email Client</span>
+                </button>
+              </form>
+
+              <!-- Transparent Static Hosting Explanation -->
+              <div class="backend-notice">
+                <strong>Hosting Transparency:</strong> This is a static site hosted on GitHub Pages. To accept direct submissions without opening your email client, connect a free service like <a href="https://formspree.io" target="_blank" rel="noopener noreferrer">Formspree</a> or <a href="https://web3forms.com" target="_blank" rel="noopener noreferrer">Web3Forms</a> by setting the form <code>action</code> attribute. Full instructions are provided in <code>README.md</code>.
+              </div>
+            </div>
+          </div>
+
+          <!-- Back to Top Link -->
+          <div class="back-to-top-wrap">
+            <a href="#top" class="back-to-top-link">
+              <svg class="icon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true">
+                <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"/>
+              </svg>
+              <span>Back to top</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================
+       FOOTER
+       ======================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-name">Bhavya Reddy</span>
+        <span class="footer-dot">·</span>
+        <span class="footer-tagline">Designed with care. Built with code.</span>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-links">
+          <a href="https://github.com/bhavya782" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+          <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer" class="footer-link placeholder-link" title="LinkedIn placeholder">LinkedIn</a>
+          <a href="mailto:bhavya.reddy.placeholder@example.com" class="footer-link">Email</a>
+        </div>
+        <div class="footer-copyright">
+          &copy; <span id="currentYear">2026</span> Bhavya Reddy. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================
+       ACCESSIBLE MODAL: PROJECT ARCHITECTURE DETAILS
+       ======================================================== -->
+  <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div>
+          <span class="modal-eyebrow" id="modalCategory">Technical Overview</span>
+          <h3 class="modal-title" id="modalTitle">Project Title</h3>
+        </div>
+        <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Dynamic content injected via JavaScript -->
+      </div>
+      <div class="modal-footer" id="modalFooter">
+        <button type="button" class="btn btn-secondary btn-sm" id="modalDismissBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       ACCESSIBLE MODAL: RESUME PREVIEW & INSTRUCTIONS
+       ======================================================== -->
+  <div class="modal-backdrop" id="resumeModal" role="dialog" aria-modal="true" aria-labelledby="resumeModalTitle" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div>
+          <span class="modal-eyebrow">Academic & Technical Credentials</span>
+          <h3 class="modal-title" id="resumeModalTitle">Resume / Curriculum Vitae</h3>
+        </div>
+        <button type="button" class="modal-close-btn" id="resumeModalCloseBtn" aria-label="Close dialog">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="resume-preview-card">
+          <h4>Bhavya Reddy</h4>
+          <p class="text-muted">B.Tech Computer Science and Engineering · VBIT (Class of 2028)</p>
+          <hr class="divider">
+          <p>
+            <strong>Summary:</strong> Motivated Computer Science student with strong foundational knowledge in Java, Python, JavaScript, and web development. Active builder of practical applications including EduPath and AnnaSeva.
+          </p>
+          <div class="resume-checklist">
+            <h5>Resume File Setup:</h5>
+            <ol>
+              <li>Generate or export your official PDF resume as <code>Bhavya_Reddy_Resume.pdf</code>.</li>
+              <li>Place the file into the <code>assets/</code> folder.</li>
+              <li>Update the download button link below in <code>index.html</code>.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="assets/Bhavya_Reddy_Resume.pdf" class="btn btn-primary btn-sm" id="downloadResumeLink" download>
+          <svg class="icon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16" aria-hidden="true">
+            <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd"/>
+          </svg>
+          <span>Download PDF (When available)</span>
+        </a>
+        <button type="button" class="btn btn-secondary btn-sm" id="resumeDismissBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container for Quick Feedback (e.g. Email Copied) -->
+  <div class="toast-container" id="toastContainer" aria-live="polite" aria-atomic="true"></div>
+
+</body>
+</html>
